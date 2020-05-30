@@ -10,7 +10,7 @@ function save(r) {
         r.log("Processing");
         r.headersOut['Content-Type'] = ['text/plain'];
         fs.writeFileSync(STORAGE, reply.responseBody);
-        r.return(200, "OK");
+        r.return(200, "Project was downloaded successfully");
     }
     var options = {
         args: r.variables.args

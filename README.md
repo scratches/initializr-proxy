@@ -23,3 +23,8 @@ $ ls -l njs
 total 56
 -rw-r--r-- 1 systemd-resolve systemd-journal 56089 May 29 15:40 starter.zip
 ```
+
+Useful docs:
+
+* https://github.com/xeioex/njs-examples
+* http://nginx.org/en/docs/njs/reference.html
